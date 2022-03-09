@@ -16,30 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Управління торгівлею" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNv-ax-fSJ">
-                                <rect key="frame" x="95.666666666666686" y="339.66666666666669" width="223" height="57"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sk-lad_logo" translatesAutoresizingMaskIntoConstraints="NO" id="6ur-Yo-iVn">
+                                <rect key="frame" x="142" y="303" width="130" height="130"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="57" id="bKJ-UO-V8z"/>
+                                    <constraint firstAttribute="height" constant="130" id="4Zh-wG-wO9"/>
+                                    <constraint firstAttribute="width" constant="130" id="rID-7i-P2Z"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Управління торгівлею" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNv-ax-fSJ">
+                                <rect key="frame" x="95.666666666666686" y="652" width="223" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="223" id="21H-pV-tpN"/>
+                                    <constraint firstAttribute="height" constant="37" id="8Bx-gJ-iJe"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="DamascusBold" family="Damascus" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sk-lad_logo" translatesAutoresizingMaskIntoConstraints="NO" id="6ur-Yo-iVn">
-                                <rect key="frame" x="142" y="197.33333333333337" width="130" height="130"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="7WX-uT-Pzm"/>
-                                    <constraint firstAttribute="width" constant="130" id="Xp2-z6-4vA"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.16590824661795622" green="0.16590824661795622" blue="0.16590824661795622" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="6ur-Yo-iVn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JkL-6a-LpG"/>
-                            <constraint firstItem="UNv-ax-fSJ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="NiY-OI-FLs"/>
-                            <constraint firstItem="UNv-ax-fSJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XUY-vi-JZ2"/>
-                            <constraint firstItem="UNv-ax-fSJ" firstAttribute="firstBaseline" secondItem="6ur-Yo-iVn" secondAttribute="baseline" constant="24.333333333333332" symbolType="layoutAnchor" id="pwp-kJ-qWf"/>
+                            <constraint firstItem="UNv-ax-fSJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5qI-Yf-fg2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UNv-ax-fSJ" secondAttribute="bottom" constant="47" id="9ij-Ug-h4s"/>
+                            <constraint firstItem="6ur-Yo-iVn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="SWj-hk-tKo"/>
+                            <constraint firstItem="6ur-Yo-iVn" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="rid-Pw-NNy"/>
                         </constraints>
                     </view>
                 </viewController>
