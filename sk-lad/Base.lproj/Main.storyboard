@@ -127,10 +127,10 @@
             <objects>
                 <tabBarController id="Chp-Su-0Cn" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="9fC-Kn-WTd"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="m5e-nl-wUE">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="m5e-nl-wUE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="IT3-dc-v9I" kind="relationship" relationship="viewControllers" id="7sf-SY-URs"/>
@@ -148,9 +148,10 @@
             <objects>
                 <navigationController id="IT3-dc-v9I" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="Hrz-Hm-MFc"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RbG-3u-IcA">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="RbG-3u-IcA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                     </navigationBar>
                     <connections>
                         <segue destination="FfR-8V-Nbz" kind="relationship" relationship="rootViewController" id="ZtV-t8-ix4"/>
@@ -165,7 +166,7 @@
             <objects>
                 <viewController id="FfR-8V-Nbz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c69-sc-Mo0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="643"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="oBQ-mT-ML7"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
@@ -181,9 +182,10 @@
             <objects>
                 <navigationController id="l1X-8g-8BD" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="gFc-Fk-ShC"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cjM-bb-1Fn">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="cjM-bb-1Fn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                     </navigationBar>
                     <connections>
                         <segue destination="kU9-Gx-Whv" kind="relationship" relationship="rootViewController" id="qiH-IJ-C5e"/>
@@ -198,7 +200,7 @@
             <objects>
                 <viewController id="kU9-Gx-Whv" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XXC-3i-6Px">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="643"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Bd8-QZ-gzr"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -214,7 +216,7 @@
             <objects>
                 <navigationController id="98W-jG-fOZ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="Gi8-R3-dcy"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ORf-HO-E1K">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="ORf-HO-E1K">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -231,7 +233,7 @@
             <objects>
                 <viewController id="iZD-Vr-RTG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iCr-hb-iXk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="643"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="1Gy-Ka-VhZ"/>
                         <color key="backgroundColor" red="0.246087841" green="0.4617660985" blue="0.25953027410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -247,7 +249,7 @@
             <objects>
                 <viewController id="lZ9-QD-vjg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8ds-eV-lSH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="643"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Ld7-Iv-7dh"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -263,7 +265,7 @@
             <objects>
                 <navigationController id="1sM-ee-OJr" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="EFf-5B-8Ng"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LKF-Ns-hFa">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="LKF-Ns-hFa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -288,6 +290,12 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
