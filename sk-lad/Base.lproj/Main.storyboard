@@ -144,11 +144,11 @@
             </objects>
             <point key="canvasLocation" x="-161" y="115"/>
         </scene>
-        <!--Item-->
+        <!--Додому-->
         <scene sceneID="Rjx-pU-Voc">
             <objects>
                 <navigationController id="IT3-dc-v9I" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Hrz-Hm-MFc"/>
+                    <tabBarItem key="tabBarItem" title="Додому" id="Hrz-Hm-MFc"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="RbG-3u-IcA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -178,11 +178,11 @@
             </objects>
             <point key="canvasLocation" x="1303" y="-1000"/>
         </scene>
-        <!--Item-->
+        <!--Прихід та розхід-->
         <scene sceneID="KDY-8V-dvc">
             <objects>
                 <navigationController id="l1X-8g-8BD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="gFc-Fk-ShC"/>
+                    <tabBarItem key="tabBarItem" title="Прихід та розхід" id="gFc-Fk-ShC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="cjM-bb-1Fn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -212,11 +212,11 @@
             </objects>
             <point key="canvasLocation" x="1303" y="-307"/>
         </scene>
-        <!--Item-->
+        <!--Товари-->
         <scene sceneID="6vK-Ql-6ni">
             <objects>
                 <navigationController id="98W-jG-fOZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Gi8-R3-dcy"/>
+                    <tabBarItem key="tabBarItem" title="Товари" id="Gi8-R3-dcy"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="ORf-HO-E1K">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -261,11 +261,11 @@
             </objects>
             <point key="canvasLocation" x="1303" y="1104"/>
         </scene>
-        <!--Item-->
+        <!--Організації-->
         <scene sceneID="c8v-re-BIA">
             <objects>
                 <navigationController id="1sM-ee-OJr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="EFf-5B-8Ng"/>
+                    <tabBarItem key="tabBarItem" title="Організації" id="EFf-5B-8Ng"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="LKF-Ns-hFa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -294,11 +294,11 @@
             </objects>
             <point key="canvasLocation" x="1303" y="1854"/>
         </scene>
-        <!--Item-->
+        <!--Ще-->
         <scene sceneID="kJS-dh-UIZ">
             <objects>
                 <navigationController id="WeU-7c-nFj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="NU7-y2-LMo"/>
+                    <tabBarItem key="tabBarItem" title="Ще" id="NU7-y2-LMo"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="CBO-Ib-dIm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
