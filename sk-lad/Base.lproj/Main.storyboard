@@ -148,7 +148,7 @@
         <scene sceneID="Rjx-pU-Voc">
             <objects>
                 <navigationController id="IT3-dc-v9I" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Додому" id="Hrz-Hm-MFc"/>
+                    <tabBarItem key="tabBarItem" title="Додому" image="home" selectedImage="home-filled" id="Hrz-Hm-MFc"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="RbG-3u-IcA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -182,7 +182,7 @@
         <scene sceneID="KDY-8V-dvc">
             <objects>
                 <navigationController id="l1X-8g-8BD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Прихід та розхід" id="gFc-Fk-ShC"/>
+                    <tabBarItem key="tabBarItem" title="Прихід та розхід" image="arrows" selectedImage="arrows-filled" id="gFc-Fk-ShC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="cjM-bb-1Fn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -216,7 +216,7 @@
         <scene sceneID="6vK-Ql-6ni">
             <objects>
                 <navigationController id="98W-jG-fOZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Товари" id="Gi8-R3-dcy"/>
+                    <tabBarItem key="tabBarItem" title="Товари" image="box" selectedImage="box-filled" id="Gi8-R3-dcy"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="ORf-HO-E1K">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -265,7 +265,7 @@
         <scene sceneID="c8v-re-BIA">
             <objects>
                 <navigationController id="1sM-ee-OJr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Організації" id="EFf-5B-8Ng"/>
+                    <tabBarItem key="tabBarItem" title="Організації" image="group" selectedImage="group-filled" id="EFf-5B-8Ng"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="LKF-Ns-hFa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -298,7 +298,7 @@
         <scene sceneID="kJS-dh-UIZ">
             <objects>
                 <navigationController id="WeU-7c-nFj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Ще" id="NU7-y2-LMo"/>
+                    <tabBarItem key="tabBarItem" title="Ще" image="menu" selectedImage="menu-filled" id="NU7-y2-LMo"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="CBO-Ib-dIm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -313,8 +313,18 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrows" width="25" height="25"/>
+        <image name="arrows-filled" width="25" height="25"/>
         <image name="black-gradient" width="1080" height="1920"/>
+        <image name="box" width="25" height="25"/>
+        <image name="box-filled" width="25" height="25"/>
         <image name="green" width="1080" height="1920"/>
+        <image name="group" width="25" height="25"/>
+        <image name="group-filled" width="25" height="25"/>
+        <image name="home" width="25" height="25"/>
+        <image name="home-filled" width="25" height="25"/>
+        <image name="menu" width="25" height="25"/>
+        <image name="menu-filled" width="25" height="25"/>
         <image name="warehouse-img" width="3024" height="4032"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
